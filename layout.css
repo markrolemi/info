@@ -1,0 +1,142 @@
+
+body {
+    display: grid;
+    height: 100vh;
+    grid-template: auto 1fr auto / auto 1fr auto;
+}
+header {
+    padding: 2rem;
+    height: 10vh;
+    text-align: center;
+    text-emphasis-color: white;
+    color: white;
+    font-size: 25px;
+    font-style: italic;
+    grid-column: 1 / 4;
+    background-color: #cccccc;
+    background-image: url('static/BlueBackground.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header h3 {
+  text-align: left;
+  color: LightSalmon;
+}
+
+.left-side {
+    background: lightgreen;
+    text-align: left;
+    padding-right: 1px;
+
+    color: white;
+    grid-column: 1 / 2;
+    background-color: #cccccc;
+    background-image: url('static/SpiralBackground.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    text-indent: 10px;
+}
+
+main {
+    background: LightSkyBlue;
+    place-items: center;
+    grid-column: 2 / 3;
+    background-color: #cccccc;
+    background-image: url('static/SunriseBackground.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+  }
+
+.right-side {
+  background: PaleTurquoise;
+  text-align: left;
+  color: red;
+  grid-column: 3 / 4;
+  width: 20vh;
+  background-color: #cccccc;
+  background-image: url('static/SpiralBackground.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  spacing: 10px;
+}
+
+footer {
+  background: wheat;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+  grid-column: 1 / 4;
+  background-color: #cccccc;
+  background-image: url('static/BlueBackground.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body {
+  font-family: system-ui, sans-serif;
+  grid-gap: 1px 1px;
+}
+
+.left-sidebar,
+.right-sidebar {
+  padding: 1rem;
+}
+
+#map{
+  height: 300px;
+  width: 100%;
+  background-color: grey;
+  margin: 0 auto;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+h1 {
+text-align:center;
+}
+#location-input{
+  background-color: lightgrey;
+  align-items: stretch;
+  width: auto;
+}
+
+
+
+
+
+/* div {
+  resize: both;
+  overflow: auto;
+} */
+
+#x5-container  {
+    display: grid;
+    grid-template: auto 1fr auto / auto 1fr auto;
+}
+
+#x5-container header {
+    padding: 2rem;
+    grid-column: 1 / 4;
+}
+
+#x5-container .left-side {
+    grid-column: 1 / 2;
+}
+
+#x5-container main {
+    grid-column: 2 / 3;
+}
+
+#x5-container .right-side {
+    grid-column: 3 / 4;
+}
+
+#x5-container footer {
+    grid-column: 1 / 4;
+}
